@@ -166,11 +166,11 @@ Exemplo conceitual:
 
 Você pode trabalhar assim:
 
-> "Create a Button component using Tailwind that supports dark and light themes and uses translation keys"
+> “Create a Button component using Tailwind that supports dark and light themes and uses translation keys”
 
 Ou:
 
-> "Replace hardcoded text with i18n keys in this page"
+> “Replace hardcoded text with i18n keys in this page”
 
 Cursor entende muito bem esse padrão.
 
