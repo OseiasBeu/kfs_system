@@ -70,7 +70,7 @@ Extensão do aluno quando entra em acompanhamento esportivo.
 
 **Sistema de faixas (cores):** Branca → Branca/amarela → Amarela → … → Preta → Preta/Dourado → Dourado 1, 2, … N. Para subir de cor, o atleta acumula o dobro do XP da cor anterior (primeira subida: 1000 XP). Cálculo em `lib/belts.ts`.
 
-**AthleteMissionAward** – Registo de XP já atribuído por "atingir target X" numa dimensão (ex.: Técnico ≥ 4), para não duplicar ao reavaliar. Campos: athleteId, dimensionCode, targetScore, xpAwarded, createdAt. Unique (athleteId, dimensionCode, targetScore).
+**AthleteMissionAward** – Registo de XP já atribuído por “atingir target X” numa dimensão (ex.: Técnico ≥ 4), para não duplicar ao reavaliar. Campos: athleteId, dimensionCode, targetScore, xpAwarded, createdAt. Unique (athleteId, dimensionCode, targetScore).
 
 **MissionTemplate** – Missões configuráveis no Admin: nome, descrição, modalidade (opcional = todas), faixa (beltIndex, opcional = qualquer), xpReward, sortOrder, isActive. O atleta vê apenas as que se aplicam à sua modalidade e faixa.
 
