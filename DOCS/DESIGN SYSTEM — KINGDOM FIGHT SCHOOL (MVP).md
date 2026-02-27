@@ -10,7 +10,7 @@ Evitar:
     
 - Componentes infinitos
     
-- "Tema bonito" sem uso real
+- “Tema bonito” sem uso real
     
 
 Isso **mata velocidade** e não traz retorno no MVP.
@@ -168,7 +168,7 @@ Todo componente precisa ter:
     
 - ❌ Erro
     
-- 📭 Vazio ("Sem aulas hoje")
+- 📭 Vazio (“Sem aulas hoje”)
     
 
 👉 Isso evita UX quebrada.
@@ -214,7 +214,7 @@ Todo componente precisa ter:
 
 👉 Cursor ajuda muito:
 
-> "Create a reusable Button component with primary and secondary variants using Tailwind"
+> “Create a reusable Button component with primary and secondary variants using Tailwind”
 
 ---
 
