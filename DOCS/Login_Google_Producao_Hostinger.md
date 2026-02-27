@@ -10,7 +10,7 @@ Quando a app estiver em produção no teu domínio (ex.: `https://app.kingdomfig
 - Abre o ficheiro (só na tua máquina) e copia:
   - `client_id` → cola no Supabase (Authentication → Providers → Google → **Client ID**).
   - `client_secret` → cola no Supabase no campo **Client Secret**.
-- **Apaga o ficheiro da raiz do projeto** (ou guarda-o fora do projeto, ex.: numa pasta "Segredos" no PC). Assim evitas que seja commitado por engano. O `.gitignore` já ignora `client_secret*.json`, mas é mais seguro não ter o ficheiro na pasta do código.
+- **Apaga o ficheiro da raiz do projeto** (ou guarda-o fora do projeto, ex.: numa pasta “Segredos” no PC). Assim evitas que seja commitado por engano. O `.gitignore` já ignora `client_secret*.json`, mas é mais seguro não ter o ficheiro na pasta do código.
 - Se já tiveres colado o Client ID e Client Secret no Supabase, podes apagar o ficheiro.
 
 ---
@@ -39,7 +39,7 @@ Domínio: **kingdomfight.com**
 
 ### 2.3 Hostinger (deploy da app)
 
-- A app Next.js tem de estar a correr nesse domínio (ex.: Vercel/Netlify/Railway apontando para o domínio, ou servidor na Hostinger com Node/Node).
+- A app Next.js tem de estar a correr nesse domínio (ex.: Vercel/Netlify/Railway apontando para o domínio, ou servidor na Hostinger com Node/Next).
 - Na Hostinger, no domínio ou subdomínio que quiseres usar, aponta para o deploy (ex.: CNAME para o Vercel, ou configuração do servidor onde a app está).
 - Garante que o site está em **HTTPS** (a Hostinger costuma dar SSL; ativa se ainda não estiver).
 
@@ -54,4 +54,4 @@ Domínio: **kingdomfight.com**
 | **Supabase** | Site URL = `https://kingdomfight.com`; Redirect URLs incluir `https://kingdomfight.com/auth/callback`. |
 | **Hostinger** | Domínio/subdomínio a apontar para onde a app está em produção; HTTPS ativo. |
 
-Depois disto, "Entrar com Google" passa a funcionar também no teu domínio.
+Depois disto, “Entrar com Google” passa a funcionar também no teu domínio.
