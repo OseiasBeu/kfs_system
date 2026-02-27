@@ -9,7 +9,7 @@
 
 ## 1️⃣ Filosofia dos Tokens (importante)
 
-- Sem tokens "bonitos", só **funcionais**
+- Sem tokens “bonitos”, só **funcionais**
     
 - Nomes **semânticos**, não visuais
     
@@ -201,7 +201,7 @@ Não são CSS, mas fazem parte do sistema:
     
 2. ✅ Sempre usar token semântico
     
-3. ❌ Nunca criar "só mais uma variação"
+3. ❌ Nunca criar “só mais uma variação”
     
 4. ✅ Tokens primeiro, componente depois
     
