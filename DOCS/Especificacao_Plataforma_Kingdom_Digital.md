@@ -15,7 +15,7 @@ O dashboard do aluno/atleta funciona como **"Perfil do Atleta"** gamificado, com
 - **Status gerais (core attributes):** cartões para Técnico, Tático, Físico, Mental, Teórico com score 1–10, barra de progresso (cores: 0–3 vermelho, 4–6 amarelo, 7–10 verde) e Média Geral.
 - **Gráfico radar (Recharts):** os cinco atributos; tema Kingdom Fight (vermelho/preto); animação no carregamento.
 - **Detalhe por componente (accordion):** secções por dimensão; dentro de cada uma, grupos por modalidade. O **detalhe é filtrado pela modalidade principal do aluno** (só critérios da modalidade do aluno). Cada critério mostra nome, pergunta/descrição, rating 1–5 estrelas e barra de progresso opcional.
-- **Missões ativas:** missões geradas pelo sistema (ex.: "Subir Físico para X") com recompensa de XP; **missões configuráveis** no Admin (por modalidade e por faixa); **missão de avaliação física** (realizar/renovar a cada 6 meses). Conclusão de avaliações na aula processa XP por targets de dimensão (`processMissionAwards`); missões de modelo dão XP ao completar.
+- **Missões ativas:** missões geradas pelo sistema (ex.: “Subir Físico para X”) com recompensa de XP; **missões configuráveis** no Admin (por modalidade e por faixa); **missão de avaliação física** (realizar/renovar a cada 6 meses). Conclusão de avaliações na aula processa XP por targets de dimensão (`processMissionAwards`); missões de modelo dão XP ao completar.
 - **Feedback do coach:** card de citação com avatar e texto (quando houver).
 
 ### 1.2 Métricas e KPIs por modalidade (parcial / futuro)
@@ -140,7 +140,7 @@ Metodologia em que o aluno **estuda a teoria no app** e **maximiza a prática no
 
 A plataforma deve fazer a **gestão de planos** e a **atribuição de plano por aluno**, alinhada à tabela de preços do Plano de Negócios.
 
-### 5.1 Planos a gerar
+### 5.1 Planos a gerir
 
 - **Kingdom Online (Plano Digital):** acesso à plataforma digital (cursos/vídeos conforme catálogo). Valor de referência: €20/mês.
 - **Kingdom Presencial Modalidade (Plano I):** acesso presencial a uma modalidade; sem inclusão de plataforma digital. Valor de referência: €40/mês.
@@ -163,8 +163,7 @@ Produtos e eventos que aumentam a margem (Camps, Workshops, cursos avulsos) deve
 ### 6.1 Conceito
 
 - **Mesma área da Biblioteca / Cursos:** onde já existem cursos e vídeos.
-
-  - Conteúdos podem ser:
+- Conteúdos podem ser:
   - **Incluídos no plano** (conforme secção 5).
   - **Só por compra:** ex.: Kingdom Fight Camp, Workshop específico, curso avulso de técnica avançada.
 - Alunos que não têm acesso a um curso (por não estar no plano) veem o curso listado com opção **"Comprar"** ou **"Inscrever-me"** (no caso de evento com data).
