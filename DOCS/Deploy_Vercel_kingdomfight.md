@@ -13,10 +13,10 @@ A aplicação Next.js está pronta para deploy na Vercel. Segue o passo a passo.
 
 ## 2. Criar projeto na Vercel
 
-1. Entra em [vercel.com](https://vercel.com) e inicia sessão (podes usar "Continue with GitHub" para ligar o repositório).
-2. Clica em **"Add New…** → **"Project"**.
+1. Entra em [vercel.com](https://vercel.com) e inicia sessão (podes usar “Continue with GitHub” para ligar o repositório).
+2. Clica em **“Add New…”** → **“Project”**.
 3. **Import** o repositório da KFS (se não aparecer, liga primeiro o GitHub/GitLab na Vercel).
-4. Escolhe o repositório e clica **"Import"**.
+4. Escolhe o repositório e clica **“Import”**.
 5. **Configure Project**:
    - **Framework Preset**: Next.js (deve ser detetado).
    - **Root Directory**: deixar em branco (raiz do repo).
@@ -51,7 +51,7 @@ Não precisas de adicionar o `.env` ao repo; preenche cada variável na Vercel e
 
 ## 4. Primeiro deploy
 
-1. Clica **"Deploy"**.
+1. Clica **“Deploy”**.
 2. A Vercel faz build e deploy. No fim ficas com um URL tipo `https://kfs-system-xxx.vercel.app`.
 3. Testa esse URL (login, dashboard, etc.) para confirmar que está tudo a funcionar.
 
@@ -60,7 +60,7 @@ Não precisas de adicionar o `.env` ao repo; preenche cada variável na Vercel e
 ## 5. Domínio kingdomfight.com
 
 1. No projeto na Vercel: **Settings** → **Domains**.
-2. Clica **"Add"** e escreve `kingdomfight.com` (e, se quiseres, `www.kingdomfight.com`).
+2. Clica **“Add”** e escreve `kingdomfight.com` (e, se quiseres, `www.kingdomfight.com`).
 3. A Vercel indica como configurar o DNS (registos CNAME ou A).
 4. Na **Hostinger** (ou onde tens o DNS do domínio):
    - Para usar **kingdomfight.com** na Vercel: adiciona um registo **CNAME** ou **A** conforme a Vercel indicar (ex.: CNAME `www` → `cname.vercel-dns.com`, ou A para o root).
