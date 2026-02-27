@@ -24,7 +24,7 @@ Existem **3 portas principais** de entrada:
 
 ### 1.2 Aluno novo (Aula Experimental)
 
-- Acessa página "Aula Experimental"
+- Acessa página “Aula Experimental”
     
 - Preenche formulário básico
     
@@ -149,7 +149,7 @@ Existem **3 portas principais** de entrada:
 ### 5.2 Aluno experimental
 
 - Sistema envia mensagem automática:  
-    "Curtiu a aula? Quer continuar treinando?"
+    “Curtiu a aula? Quer continuar treinando?”
     
 - Coach pode marcar:
     
@@ -172,7 +172,7 @@ Existem **3 portas principais** de entrada:
 2. **Plano** – Seleciona/atribuição de plano (Admin ou no fluxo de matrícula).
 3. **Avaliação física** – Aluno deve **solicitar avaliação física**; é uma missão obrigatória para todos.
 4. **Instrutor** – Qualquer professor (coach) acede ao **perfil do aluno** e preenche a **Ficha de Anamnese e Avaliação Física Inicial** (identificação, objetivo, histórico saúde, PAR-Q, atividade, avaliação física, testes, avaliação 1–10, termo, liberação).
-5. **Renovação** – A avaliação física é **obrigatória a cada 6 meses**; quando a data de renovação vence, a missão "Renovar avaliação física" volta a aparecer no dashboard do aluno até estar em dia.
+5. **Renovação** – A avaliação física é **obrigatória a cada 6 meses**; quando a data de renovação vence, a missão “Renovar avaliação física” volta a aparecer no dashboard do aluno até estar em dia.
 
 ---
 
